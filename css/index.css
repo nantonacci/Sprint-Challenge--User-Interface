@@ -162,12 +162,13 @@ p {
 .header-nav {
   display: flex;
   align-content: center;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   padding-bottom: 40px;
 }
 
 .header-nav a {
+  padding-top: 20px;
   text-decoration: none;
   color: black;
   font-size: 14px;
