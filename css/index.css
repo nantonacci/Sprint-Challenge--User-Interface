@@ -181,6 +181,10 @@ p {
   margin-right: 25px;
 }
 
+.header-img {
+  padding-bottom: 20px;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -214,12 +218,52 @@ p {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
+  /* background: black; */
   margin: 20px 2.5%;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box-1 {
+  background: teal;
+}
+
+.box-2 {
+  background: gold;
+}
+
+.box-3 {
+  background: cadetblue;
+}
+
+.box-4 {
+  background: coral;
+}
+
+.box-5 {
+  background: crimson;
+}
+
+.box-6 {
+  background: forestgreen;
+}
+
+.box-7 {
+  background: darkorchid;
+}
+
+.box-8 {
+  background: hotpink;
+}
+
+.box-9 {
+  background: indigo;
+}
+
+.box-10 {
+  background: dodgerblue;
 }
 
 .bottom-content {
