@@ -186,7 +186,7 @@ p {
   padding-bottom: 20px;
 }
 
-.about-img {
+.about-header-img {
   padding-bottom: 20px;
 }
 
@@ -224,6 +224,43 @@ p {
   padding: 0 1%;
   padding-bottom: 20px;
 }
+
+/* about center content */
+.about-middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-middle-content .text-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 48%;
+  border-bottom: 1px dashed black;
+}
+
+.about-middle-content .text-container h2 {
+  padding-top: 10px;
+}
+
+.about-middle-content .text-container p {
+  padding-bottom: 10px;
+}
+
+.about-middle-content .text-container button {
+  border-radius: 5px;
+  border: 2px solid black;
+  background: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+/* box styles */
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
