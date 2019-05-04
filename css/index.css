@@ -368,6 +368,69 @@ button:hover {
   background: dodgerblue;
 }
 
+/* contact form */
+
+.contact-form {
+  margin: 30px auto 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  width: 80%;
+  margin-left: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+label {
+  margin-right: 5px;
+}
+
+.form-row input {
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-row select {
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  padding: 3px;
+}
+
+form button {
+  border-radius: 5px;
+  border: 2px solid black;
+  background: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  padding: 8px;
+  width: 15%;
+  margin: 20px 0 20px 0;
+}
+
+/* bottom of home */
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
