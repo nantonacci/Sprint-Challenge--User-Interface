@@ -186,6 +186,10 @@ p {
   padding-bottom: 20px;
 }
 
+.about-img {
+  padding-bottom: 20px;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -200,6 +204,11 @@ p {
   padding-bottom: 20px;
 }
 
+.about-text {
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -210,6 +219,11 @@ p {
   margin-bottom: 0;
 }
 
+.middle-content .text-container {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
