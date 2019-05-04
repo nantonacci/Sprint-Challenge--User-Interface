@@ -161,10 +161,24 @@ p {
 
 .header-nav {
   display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
 }
 
-a {
+.header-nav a {
   text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.link-first {
+  margin-left: -25px;
+}
+
+.link-last {
+  margin-right: 25px;
 }
 
 .top-content {
