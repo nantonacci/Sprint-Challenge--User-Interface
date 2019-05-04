@@ -241,6 +241,13 @@ p {
   border-bottom: 1px dashed black;
 }
 
+.about-bottom {
+  padding-top: 50px;
+}
+.about-img {
+  padding-top: 10px;
+}
+
 .about-middle-content .text-container h2 {
   padding-top: 10px;
 }
@@ -254,10 +261,10 @@ p {
   border: 2px solid black;
   background: white;
   font-family: 'Rubik', sans-serif;
-  font-size: 14px;
-  padding: 5px;
-  width: 30%;
-  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 8px;
+  width: 33%;
+  margin-bottom: 20px;
 }
 
 /* box styles */
@@ -330,6 +337,11 @@ p {
 
 .bottom-content .text-container:last-child {
   padding-right: 0;
+}
+
+/* about last p */
+.last-p {
+  padding-bottom: 50px;
 }
 
 footer {
