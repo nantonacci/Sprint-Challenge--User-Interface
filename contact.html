@@ -1,0 +1,114 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Sprint Challenge - Home</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="header-nav">
+        <a href="../Sprint-Challenge--User-Interface/index.html">
+          <img
+            src="../Sprint-Challenge--User-Interface/img/lambda-black.png"
+            alt="Lambda logo"
+        /></a>
+        <a
+          class="link-first"
+          href="../Sprint-Challenge--User-Interface/index.html"
+          >Home</a
+        >
+        <a href="../Sprint-Challenge--User-Interface/about.html">About</a>
+        <a href="">Products</a>
+        <a href="">Blog</a>
+        <a
+          class="link-last"
+          href="../Sprint-Challenge--User-Interface/contact.html"
+          >Contact</a
+        >
+      </nav>
+
+      <img
+        class="header-img"
+        src="../Sprint-Challenge--User-Interface/img/markus-petritz-unsplash.jpg"
+        alt="Close up of keyboard"
+      />
+      <div class="top-content">
+        <div class="about-text">
+          <h2>Contact</h2>
+          <p>
+            Use the form below to get in touch. Leverage agile frameworks to
+            provide a robust synopsis for high level overviews. Iterative
+            approaches to corporate strategy foster collaborative thinking to
+            further the overall value proposition.
+          </p>
+        </div>
+      </div>
+
+      <!-- form -->
+      <form action="" method="get" class="contact-form">
+        <div class="form-row">
+          <label for="full-name">Name</label>
+          <input
+            id="full-name"
+            name="full-name"
+            type="text"
+            placeholder="John Smith"
+          />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="john@smith.com"
+          />
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone number</label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required
+            placeholder="123-456-7891"
+          />
+        </div>
+        <div class="form-row">
+          <label for="project">Project type</label>
+          <select name="project" id="project">
+            <option value="site">Website only</option>
+            <option value="hosting">Website and hosting</option>
+            <option value="payment">Website with payment integration</option>
+            <option value="works">Website with the works</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="details">Tell us more</label>
+          <textarea name="details" id="details" cols="60" rows="10"></textarea>
+        </div>
+        <div class="form-row">
+          <button>Submit</button>
+        </div>
+      </form>
+
+      <footer>
+        <nav>
+          <a href="../Sprint-Challenge--User-Interface/index.html">Home</a>
+          <a href="../Sprint-Challenge--User-Interface/about.html">About</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <a href="../Sprint-Challenge--User-Interface/contact.html">Contact</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
